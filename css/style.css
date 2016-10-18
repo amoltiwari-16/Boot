@@ -4,7 +4,7 @@ body
 	
 }
 
-/*-----------------------header------------------------*/
+/* header */
 /* Add a dark background color with a little bit see-through */ 
 .navbar {
     margin-bottom: 0;
@@ -19,7 +19,6 @@ body
 .navbar li a, .navbar .navbar-brand, #galleryhead { 
     color: #d5d5d5 !important;    
 }
-
 
 /* On hover, the links will turn white */
 .navbar-nav li a:hover {
@@ -54,7 +53,7 @@ body
 }
 
 
-/* ---------------Main Section------------ */
+/* Main Section */
 #outerContainer{
 	background-image:url("../img/bg.jpg");
 	height: auto;
@@ -84,7 +83,7 @@ body
 	color: Black;
 }
 
-.img-thumbnail
+.gallery
 {	background: black;
 	border: none;
 	border-radius: 0; 
@@ -96,7 +95,7 @@ body
    -moz-filter: grayscale(100%);
 }
 
-.img-thumbnail:hover
+.gallery:hover
 {
 	filter: grayscale(0%);
    -webkit-filter: grayscale(0%);
